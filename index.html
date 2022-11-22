@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobrinha Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="startGame()">
+    <p id="score">0</p>
+    <div style="text-align:center;width:480px;"> 
+    <button onmousedown="moveup()" ontouchstart="moveup()">UP</button>
+    <br>
+    <br> 
+    <button onmousedown="moveleft()" ontouchstart="moveleft()">LEFT</button> 
+    <button onmousedown="moveright()" ontouchstart="moveright()">RIGHT</button>
+    <br>
+    <br> 
+    <button onmousedown="movedown()" ontouchstart="movedown()">DOWN</button> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

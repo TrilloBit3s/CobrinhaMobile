@@ -1,0 +1,26 @@
+html {
+      user-select:none;
+      font-family: Verdana;
+  }
+body {
+      margin:0;
+      background: black;
+  }
+canvas {
+        border:5px solid antiquewhite;
+        background-color: black;
+  }
+p {
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    top: 0;
+    left: 5%;
+  }
+button {
+        padding-right:20px;
+        padding-left:20px;
+        padding-top:20px;
+        padding-bottom:20px;
+  }
